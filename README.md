@@ -82,6 +82,14 @@ newman run src/main/resources/postman_collection.json
 
 All API endpoints will be tested automatically, with the execution report displayed directly in the terminal.
 
+You can also use Postman directly:
+https://www.postman.com/downloads/
+
+!!! Warning !!!  
+If you encounter issues when using Postman or Newman, this may be because the API is running locally.  
+In that case, make sure to use a Local Agent in Postman to allow access to the local environment:
+https://learning.postman.com/docs/getting-started/installation/installation-and-updates/#install-the-postman-desktop-agent
+
 # HOW THE API WORKS
 
 ## 1. H2 Database Console
